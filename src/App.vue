@@ -3,7 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>
+  <div class="bg-red-600 text-white p-4 rounded">
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -13,7 +13,11 @@ import HelloWorld from './components/HelloWorld.vue'
   
   </div>
   <HelloWorld msg="Vite + Vue" />
-    <p class=“bg-red-600”>holita</p>
+   
+    <template>
+      
+</template>
+
 </template>
 
 <style scoped>
